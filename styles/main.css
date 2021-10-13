@@ -1,0 +1,114 @@
+/* Globales */
+body{
+    font-family: arial;
+    font-size: 18px;
+    width: 600px;
+    background: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 12px;
+    /*background: grey;*/
+}
+
+header {
+    text-align: center;
+    margin: 48px;
+    /*background: gray;*/
+    border-radius: 10px;
+}
+
+header a{
+    font-size: 50px;
+}
+/* SECTIONS  y sus clases con imagen */
+
+section {
+    margin: 20px;
+    /*background: yellow;*/
+}
+
+section .textplusform{
+    margin: 0px;
+    padding: 20px;
+    width: 220px;
+}
+
+section .imagen {
+    padding: 20px;
+}
+
+.outdoors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sitting {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* form y su boton, en el header y secctions*/
+
+form {
+    /*background: grey;*/
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20x;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    font-size: medium;
+    border-color:  grey;
+    box-shadow: 2px 2px 5px rgb(179, 174, 174);
+    cursor: pointer;
+}
+
+/* SECTION con clase Install */
+
+.install p {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+hr {
+    height: 0.5px;
+    background: black;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    width: 520px;;
+}
+ /* FOOTER */
+
+footer {
+    text-align: center;
+    font-size: small;
+}
+
+footer p {
+    margin-bottom: 8px;
+}
+.link-social {
+    padding: 10px;
+    margin-bottom: 20px;
+}
